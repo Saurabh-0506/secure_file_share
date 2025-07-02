@@ -1,9 +1,38 @@
 # Python
-__pycache__/
-*.py[cod]
+
+**pycache**/
+_.py[cod]
 .env
-*.db
-*.sqlite3
+_.db
+\*.sqlite3
 uploaded_files/
 
+---
 
+## 🚫 `.gitignore`
+
+📁 Path: `secure_file_share/.gitignore`
+
+```gitignore
+# Byte-compiled / cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables
+.env
+
+# Uploads (store locally, not in repo)
+uploaded_files/
+
+# OS / Editor files
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+
+```
