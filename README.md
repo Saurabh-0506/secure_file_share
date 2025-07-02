@@ -54,3 +54,23 @@ A secure backend system that allows:
 ---
 
 ## 📂 Project Structure
+
+secure_file_share/
+│
+├── app/
+│ ├── routes/
+│ │ ├── ops_routes.py
+│ │ └── client_routes.py
+│ ├── auth/
+│ │ └── auth_handler.py
+│ ├── utils/
+│ ├── email/
+│ └── database.py
+│
+├── uploaded_files/ # Files uploaded by ops
+├── main.py
+├── .env
+├── .gitignore
+├── requirements.txt
+├── Dockerfile
+└── README.md
